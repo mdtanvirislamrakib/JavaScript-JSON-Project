@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* font-family: "Hind Siliguri", sans-serif;
+font-family: "Poppins", sans-serif; */
+
+html {
+    scroll-behavior: smooth;
+}
+.font-pop, .eng {
+    font-family: "Poppins", sans-serif;
+}
+
+.bng {
+    font-family: "Hind Siliguri", sans-serif;
+}
+.navbar-section {
+    border-bottom: 1px solid rgb(198, 189, 189);
+    backdrop-filter: blur(40px);
+    background: linear-gradient(178.08deg, rgba(255, 255, 255, 0.3) -28.101%,rgba(0, 0, 0, 0) 128.101%),linear-gradient(169.25deg, rgba(255, 255, 255, 0.05) 24.246%,rgba(0, 0, 0, 0) 24.246%);
+    border-radius: 10px;
+}
+.faq-title,
+.faq-des,
+.faq-section h1,
+.vocabulary div h2,
+.banner-section div div h1 {
+    font-family: "Poppins", sans-serif;
+}
+.vocabulary div h1,
+.vocabulary div p {
+    font-family: "Hind Siliguri", sans-serif;
+}
+.banner-section div div p {
+    font-family: "Hind Siliguri", sans-serif;
+    max-width: 550px;
+}
+
+#faq-section {
+    scroll-margin-top: 80px; /* 80px porjonto upore thakbe */
+}
+  
+#vocabulary {
+    scroll-margin-top: 80px; /* 80px porjonto upore thakbe */
+}
+.active {
+    background-color: blue;
+    color: white;
+}
+
+/* responsive website design  */
