@@ -32,12 +32,15 @@
                 </nav>
 
                 <div class="flex items-center justify-between gap-x-5 text-blue-600">
-                    <a href="#faq-section"
-                        class="flex items-center justify-between font-pop gap-3 border border-blue-600 rounded-lg px-4 py-2 hover:bg-blue-600 hover:text-white transition-all cursor-pointer nav-button"><i
-                            class="fa-solid fa-circle-question"></i>FAQ</a>
-                    <a href="#vocabulary"
-                        class="flex items-center justify-between font-pop border border-blue-600 rounded-lg px-4 py-2 gap-3 hover:bg-blue-600 hover:text-white transition-all cursor-pointer nav-button"><i
-                            class="fa-solid fa-book-open"></i>Learn</a>
+                    <div class="flex items-center justify-between gap-x-5 hide-section">
+                        <a href="#faq-section"
+                            class="flex items-center justify-between font-pop gap-3 border border-blue-600 rounded-lg px-4 py-2 hover:bg-blue-600 hover:text-white transition-all cursor-pointer nav-button"><i
+                                class="fa-solid fa-circle-question"></i>FAQ</a>
+                        <a href="#vocabulary"
+                            class="flex items-center justify-between font-pop border border-blue-600 rounded-lg px-4 py-2 gap-3 hover:bg-blue-600 hover:text-white transition-all cursor-pointer nav-button"><i
+                                class="fa-solid fa-book-open"></i>Learn</a>
+                    </div>
+
                     <a href=""
                         class="flex items-center justify-between font-pop border border-blue-600 rounded-lg px-4 py-2 gap-3 hover:bg-blue-600 hover:text-white transition-all cursor-pointer nav-button"
                         id="logout"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
@@ -70,7 +73,7 @@
                     id="login-btn">Get Started</button>
             </div>
             <div>
-                <img src="./assets/hero-student.png" alt="">
+                <img src="./assets/hero-student.png" alt="" class="hidden lg:block">
             </div>
         </section>
 
@@ -82,10 +85,10 @@
         <!-- vocabulary section start -->
         <section class="vocabulary space-y-6 mt-28" id="vocabulary">
             <div class="flex flex-col items-center justify-center space-y-8">
-                <h2 class="text-3xl font-bold text-center"><span class="text-blue-500">Let's </span>Learn Vocabularies
+                <h2 class="text-2xl font-bold text-center lg:text-3xl"><span class="text-blue-500">Let's </span>Learn Vocabularies
                 </h2>
 
-                <div class="flex items-center justify-center gap-x-5 text-blue-600" id="lessons-item">
+                <div class="flex items-center justify-center gap-x-5 text-blue-600 flex-wrap gap-5" id="lessons-item">
 
                 </div>
                 <section id="loader" class="text-center py-10 hidden">
@@ -104,7 +107,7 @@
             </div>
 
 
-            <div id="lessons-container" class="grid grid-cols-3 gap-5 w-11/12 mx-auto">
+            <div id="lessons-container" class="grid lg:grid-cols-3 gap-5 w-11/12 mx-auto grid-cols-1">
 
             </div>
 
@@ -116,7 +119,8 @@
                     <div class="modal-action flex items-start justify-start">
                         <form method="dialog">
                             <!-- if there is a button in form, it will close the modal -->
-                            <button class="btn bg-blue-700 text-white font-bold text-lg rounded-lg py-2 px-4">Complete Learning</button>
+                            <button class="btn bg-blue-700 text-white font-bold text-lg rounded-lg py-2 px-4">Complete
+                                Learning</button>
                         </form>
                     </div>
                 </div>
@@ -193,7 +197,8 @@
 
     <!-- footer section start  -->
 
-    <footer class="footer flex justify-between items-center p-10 border-t-2 border-gray-200 mt-24">
+    <footer
+        class="footer lg:flex justify-between items-center p-4 border-t-2 border-gray-200 mt-24 flex-col lg:flex-row lg:p-10">
 
         <div class="space-y-5">
             <div class="logo flex items-center text-xl font-bold">

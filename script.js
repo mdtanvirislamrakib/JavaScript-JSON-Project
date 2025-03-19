@@ -146,7 +146,7 @@ const displayLesson = (lessons) => {
 
         // create lessons card\
         const lessonCard = document.createElement("div");
-
+        
 
         lessonCard.innerHTML = `
             <div class="p-5 hover:bg-sky-50 border border-gray-500 rounded-lg space-y-5 shadow-lg">

@@ -51,3 +51,11 @@ html {
 }
 
 /* responsive website design  */
+@media screen and (max-width: 650px) {
+    .hide-section {
+        display: none;
+    }
+    #banner {
+        margin-top: 100px;
+    }
+}
